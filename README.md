@@ -411,7 +411,7 @@ Creates a blackout spanning the start_date and end_date fields. Date Format is "
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## End-point: Property Blackout Edit
-Updates a blackout spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS"
+Updates a blackout spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS".  The System only uses Date portion example (Start 2025-02-04 to 2025-02-10 End)
 
 **property_id** - **Required** Property ID (int)
 **blackout_id** - **Required** Blackout ID (int)
@@ -539,7 +539,7 @@ Fetches a properties scheduled pricing
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## End-point: Scheduled Pricing Create
-Creates scheduled pricing spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS"
+Creates scheduled pricing spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS".  The System only uses Date portion example (Start 2025-02-04 to 2025-02-10 End)
 
 **property_id** - **Required** Property ID (int)  
 **daily_rate** -  **Required** Daily Rate (decimal)
@@ -589,7 +589,7 @@ Creates scheduled pricing spanning the start_date and end_date fields. Date Form
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## End-point: Scheduled Pricing Edit
-Updates scheduled pricing spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS"
+Updates scheduled pricing spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS".  The System only uses Date portion example (Start 2025-02-04 to 2025-02-10 End)
 
 **property_id** - **Required** Property ID (int)
 **scheduled_id** - **Required** Scheduled Pricing ID (int)
