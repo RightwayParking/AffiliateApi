@@ -370,7 +370,7 @@ Fetches a properties blackouts
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## End-point: Property Blackout Create
-Creates a blackout spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS"
+Creates a blackout spanning the start_date and end_date fields. Date Format is "YYYY-MM-DD HH:MM:SS". The System only uses Date portion example (Start 2025-02-04 to 2025-02-10 End)
 
 **id** - **Required** Property ID (int)  
 **start_date** - **Required** Start Date (datetime) "YYYY-MM-DD HH:MM:SS"  
