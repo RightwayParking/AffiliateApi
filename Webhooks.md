@@ -463,7 +463,7 @@ If you're having trouble with webhook integration:
 
 For technical support with webhook integration:
 
-- **Email**: support@yourcompany.com
+- **Email**: customerservice@rightwayparking.com
 - **Documentation**: Include your property ID and webhook URL in support requests
 - **Response Time**: We typically respond within 24 hours
 
