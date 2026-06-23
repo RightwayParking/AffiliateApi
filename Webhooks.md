@@ -84,8 +84,8 @@ When a reservation is completed, you'll receive a JSON payload with the followin
             }
         },
         "reservation": {
-            "check_in": "2024-07-15",
-            "check_out": "2024-07-20"
+            "check_in": "2024-07-15 02:00:00",
+            "check_out": "2024-07-20 15:00:00"
         },
         "details": {
             "days": 5,
@@ -135,8 +135,8 @@ When a reservation is completed, you'll receive a JSON payload with the followin
 - **special_pricing**: Array of special pricing applied
 
 ### Reservation Dates
-- **check_in**: Check-in date (YYYY-MM-DD format)
-- **check_out**: Check-out date (YYYY-MM-DD format)
+- **check_in**: Check-in date (YYYY-MM-DD HH:MM:SS format)
+- **check_out**: Check-out date (YYYY-MM-DD HH:MM:SS format)
 
 ### Reservation Details
 - **days**: Number of days booked
