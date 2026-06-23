@@ -349,8 +349,8 @@ You can test your webhook endpoint with this sample payload:
             "special_pricing": false
         },
         "reservation": {
-            "check_in": "2024-07-15",
-            "check_out": "2024-07-18"
+            "check_in": "2024-07-15 02:00:00",
+            "check_out": "2024-07-18 15:00:00"
         },
         "details": {
             "days": 3,
